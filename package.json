@@ -1,0 +1,21 @@
+{
+  "name": "clenv",
+  "description": "A .env manager",
+  "version": "0.0.1",
+  "license": "MIT",
+  "bin": "./clenv.js",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint ./clenv.js ./src/** --fix"
+  },
+  "dependencies": {
+    "commander": "^9.4.0",
+    "dotenv": "^16.0.2",
+    "find-up": "^6.3.0",
+    "inquirer": "^9.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.0"
+  }
+}
