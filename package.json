@@ -1,7 +1,7 @@
 {
   "name": "clenv",
   "description": "A .env manager",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "MIT",
   "bin": "./clenv.js",
   "type": "module",
@@ -17,5 +17,9 @@
   },
   "devDependencies": {
     "eslint": "^8.23.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qxb3/clenv"
   }
 }
