@@ -9,7 +9,7 @@ const program = new Command()
 program
   .name('clenv')
   .description('A .env manager')
-  .version('0.0.3')
+  .version('0.0.4')
 
 function addCommands() {
   add(program, inquirer)
